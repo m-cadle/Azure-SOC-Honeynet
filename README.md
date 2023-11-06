@@ -30,7 +30,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoints.
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows]![image](https://github.com/m-cadle/Azure-SOC-Honeynet/assets/122918279/6c462c35-84ae-4141-96ee-f3e68aa9e804)<br>
@@ -39,9 +39,9 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-11-02 01:27
-Stop Time 2023-11-03 01:27
+The following table shows the metrics we measured in our insecure environment for 24 hours:<br>
+Start Time 2023-11-02 01:27<br>
+Stop Time 2023-11-03 01:27<br>
 
 | Metric                   | Count
 | ------------------------ | -----
@@ -57,9 +57,9 @@ Stop Time 2023-11-03 01:27
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-11-05 01:29
-Stop Time	2023-11-06 01:29
+The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:<br>
+Start Time 2023-11-05 01:29<br>
+Stop Time	2023-11-06 01:29<br>
 
 | Metric                   | Count
 | ------------------------ | -----
